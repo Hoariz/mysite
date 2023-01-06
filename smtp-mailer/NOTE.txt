@@ -1,0 +1,25 @@
+php.ini location: C:\xampp\php
+sendmail.ini location: C:\xampp\sendmail
+
+Note! Copy and paste the text from (php.ini & sendmail.ini) or change the file if neccesary.
+
+php.ini
+
+For Win32 only.
+http://php.net/smtp
+SMTP=smtp.gmail.com
+http://php.net/smtp-port
+smtp_port=587
+sendmail_from =your email address here.
+sendmail_path ="\"C:\xampp\sendmail\sendmail.exe\" -t"
+
+sendmail.ini
+
+smtp_server=smtp.gmail.com
+smtp_port=587
+error_logfile=error.log
+debug_logfile=debug.log
+auth_username=your email address here.
+auth_password= ****************
+force_sender=your email address here.
+
